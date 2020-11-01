@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 
   final String uid;
 
-  HomePage({@required this.uid});
+  HomePage({this.uid});
 
   @override
   _HomePageState createState() => _HomePageState();
